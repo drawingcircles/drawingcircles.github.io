@@ -1,0 +1,14 @@
+// custom variables
+$primary: rgb(88, 28, 200);
+$secondary: rgb(88, 28, 300);
+
+$warning:lightcoral;
+
+// import the functions & variables
+@import '../node_modules/bootstrap/scss/_functions';
+@import '../node_modules/bootstrap/scss/_variables';
+
+
+
+// import bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap';

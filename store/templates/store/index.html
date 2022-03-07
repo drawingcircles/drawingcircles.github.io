@@ -1,0 +1,215 @@
+{% extends 'store/main.html' %}
+{% load static %}
+{% block content %}
+
+
+
+
+<!-- Showcase -->
+<section class="hero p-3 p-lg-5 text-center text-sm-start">
+    <div class="container">
+        <div class="d-sm-flex">
+            <div>
+                <h1 style="font-family:'Poppins',sans-seriff"class="display-3">keeping writing <span class="text-secondary">simple</span></h1>
+                <p
+                style="font-family:'Poppins',sans-seriff"
+                class="lead my-4">
+                    Simplify your writing instruction with these no-prep resources. Save yourself some time and get these simply-designed, student-friendly, digital & print activities. Click on shop now to visit my TPT store! You can also find me on
+                    Pinterest and Instagram!
+                </p>
+                <button class="btn btn-primary btn-lg mb-4" href="">
+                    <a class="nav-link text-light" href="{% url 'store' %}">
+                        shop now
+                    </a>
+                </button>
+            </div>
+            <div class="w-100">
+                <img class="w-100 d-none d-md-block" src="{% static 'images/bio.png' %}" id="bio">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Newsletter -->
+<section style="" class="text-center p-4 text-secondary row">
+    <div class="shoutout display-4">
+        Keep your writing instruction simple.
+    </div>
+</section>
+
+<!-- Boxes -->
+
+
+<!-- Other Sales Sections -->
+<section id="learn" class="p-5 row">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+            
+            <div class="col-md p-5">
+                <h1
+                style="font-family:'Poppins',sans-seriff"
+                >Teachers Pay Teachers</h1>
+                <p class="lead">
+                    I am a 28 year old educator, writer, and designer. This is my 8th year as a teacher & I nerd out over writing instruction. Hopefully, you’ll find some resources that make your writing block simple.
+                </p>
+                <a href="https://www.teacherspayteachers.com/Store/Keeping-Writing-Simple" class="btn btn-secondary mt-3">
+                    <i class="bi bi-chevron-right"></i>Shop TPT
+                </a>
+            </div>
+
+            <div class="col-md">
+                <img src="static/images/TPT pic .png" class="img-fluid" alt="" />
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="learn" class="p-5 row text-dark">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-md p-5">
+                <h1
+                style="font-family:'Poppins',sans-seriff"
+                >Fiverr</h1>
+                <p class="lead">
+                    I am a 28 year old educator, writer, and designer. I will use your existing content to create video, idea, and graphic Pinterest pins to drive traffic to your blog, YouTube, social media, or online store. Send me a link of the content you wish to promote & we can get started! 
+                </p>
+               
+                <a href="https://www.fiverr.com/adrianareyes270?source=gig_cards&referrer_gig_slug=design-your-pinterest-idea-pins&ref_ctx_id=405a503e07cc533c4ab12d54bed15d57&imp_id=161453d1-5381-4c81-8985-0fc7953e152b"
+                    class="btn btn-secondary mt-3">
+                    <i class="bi bi-chevron-right"></i>Shop Fiverr
+                </a>
+            </div>
+            <div class="col-md">
+                <img src="static/images/Copy of i will design your pinterest idea pins.png" class="img-fluid" alt="" />
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Question Accordion -->
+<section id="questions" class="p-5">
+    <div class="container">
+        <h2
+        style="font-family:'Poppins',sans-seriff"
+        class="text-center mb-4">Frequently Asked Questions</h2>
+        <div class="accordion accordion-flush" id="questions">
+
+            <!-- Item 1 -->
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Can you help me with my Pinterest?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div
+                        style="font-family:'Poppins',sans-seriff"
+                        class="accordion-body">
+                            <strong>YES!</strong> Email me at <a href="mailto: adriana@keepingwritingsimple.com">adriana@keepingwritingsimple.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Can you make me custom resources?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div
+                        style="font-family:'Poppins',sans-seriff"
+                        class="accordion-body">
+                            <strong>YES!</strong> Visit my Fiverr or email me at <a href="mailto: adriana@keepingwritingsimple.com">adriana@keepingwritingsimple.com</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+</section>
+
+
+
+
+<!-- Footer -->
+<footer class="p-5 row text-align-center text-secondary text-center position-relative">
+    <div class="container-fluid">
+        <p class="lead col-6">Copyright &copy; 2022 keeping writing simple</p>
+
+        <a href="#" class="col-6 position-absolute bottom-0 end-0 p-5">
+            <i class="bi bi-arrow-up-circle h1"></i>
+        </a>
+    </div>
+</footer>
+
+<!-- Modal -->
+<div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="enrollLabel">Enrollment</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p class="lead">Fill out this form and we will get back to you</p>
+                <form>
+                    <div class="mb-3">
+                        <label for="first-name" class="col-form-label">
+                            First Name:
+                        </label>
+                        <input type="text" class="form-control" id="first-name" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="last-name" class="col-form-label">Last Name:</label>
+                        <input type="text" class="form-control" id="last-name" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="col-form-label">Email:</label>
+                        <input type="email" class="form-control" id="email" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone" class="col-form-label">Phone:</label>
+                        <input type="tel" class="form-control" id="phone" />
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                    Close
+                </button>
+                <button type="button" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js"></script>
+
+<script>
+    mapboxgl.accessToken =
+        'pk.eyJ1IjoiYnRyYXZlcnN5IiwiYSI6ImNrbmh0dXF1NzBtbnMyb3MzcTBpaG10eXcifQ.h5ZyYCglnMdOLAGGiL1Auw'
+    var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v11',
+        center: [-71.060982, 42.35725],
+        zoom: 18,
+    })
+</script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+{% endblock content %}
