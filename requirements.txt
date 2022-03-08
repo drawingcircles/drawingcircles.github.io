@@ -104,7 +104,7 @@ pylint==2.12.2
 
 pyparsing==3.0.7
 pyrsistent==0.18.1
-python-dateutil==2.8.2
+python-dateutil==1.5
 python-jsonrpc-server==0.4.0
 python-language-server==0.36.2
 python-lsp-jsonrpc==1.0.0
