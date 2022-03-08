@@ -1,1 +1,1 @@
-web: gunicorn ecommerce-keepingwritingsimple.wsgi --log-file -
+web: gunicorn  ecommerce.wsgi.py --log-file -
