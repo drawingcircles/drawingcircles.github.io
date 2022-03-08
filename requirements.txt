@@ -101,7 +101,7 @@ pydocstyle==6.1.1
 pyflakes==2.4.0
 Pygments==2.10.0
 pylint==2.12.2
-pyls-mypy==0.1.8+6.g3b105b4
+
 pyparsing==3.0.7
 pyrsistent==0.18.1
 python-dateutil==2.8.2
@@ -138,8 +138,4 @@ wcwidth==0.2.5
 webencodings==0.5.1
 Werkzeug==2.0.2
 whitenoise==6.0.0
-widgetsnbextension==3.5.2
-wrapt==1.13.3
-WTForms==3.0.1
-yagmail==0.15.277
-yapf==0.32.0
+
