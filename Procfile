@@ -1,1 +1,2 @@
-web: gunicorn  ecommerce.wsgi.py --log-file -
+web: gunicorn  ecommerce.wsgi --log-file -
+web: node src/server.js
